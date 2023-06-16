@@ -4,7 +4,7 @@ body{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
-    background-color: #e5e9e9;
+    /* background-color: #e4edf5; */
 }
 .menu-logo{
     color: rgb(35, 216, 177);
@@ -83,4 +83,123 @@ body{
 }
 .card-money{
     color: rgb(35, 216, 177);
+}
+.btn-rent{
+    background-color: rgb(150, 149, 149);
+    border: none;
+    color: white;
+    font-size: 14px;
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+}
+.btn-rent:hover{
+    background-color: rgb(4, 134, 21);
+    border: none;
+    color: white;
+    font-size: 14px;
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+}
+.btn-sale{
+    background-color: rgb(150, 149, 149);
+    border: none;
+    color: white;
+    font-size: 14px;
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+}
+.btn-sale:hover{
+    background-color: rgb(202, 5, 5);
+    border: none;
+    color: white;
+    font-size: 14px;
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+}
+.city{
+    margin: 10px 14px;
+}
+.agent{
+    border-radius: 50%;
+}
+.agents{
+    width: 10vw;
+}
+.agent-lady{
+    width: 3vw;
+    border-radius: 50%;
+}
+.names{
+    color: rgb(35, 216, 177);
+}
+.agent-lady{
+    width: 3vw;
+    border-radius: 50%;
+}
+.contact{
+    background-color:  rgb(35, 216, 177);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+.contact-btn{
+    background: rgb(35, 216, 177);
+    color: white;
+    font-size: larger;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 4px;
+}
+.read-btn{
+    font-size: larger;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: none;
+    color: rgb(6, 204, 188);
+    border: 1px solid rgb(35, 216, 177);
+}
+.details-info{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.email{
+    border: 1px solid rgb(196, 194, 194);
+    background: rgb(245, 245, 245);
+    padding: 7px 12px;
+    border-radius:5px 0px 0px 5px;
+}
+.arrow{
+    border: 1px solid rgb(196, 194, 194);
+    background: rgb(243, 243, 243);
+    padding: 11px 15px;
+    border-radius: 0px 5px 5px 0px;
+}
+.email:hover{
+    background: #e4edf5;;
+}
+.arrow:hover{
+    cursor: pointer;
+    background: #e4edf5;;
+}
+.blogger{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+}
+.website{
+    text-decoration: none;
+    color: rgb(246, 250, 249);
+    font-weight: bold;
+}
+.gmail{
+    color:rgb(247, 248, 248);
 }
